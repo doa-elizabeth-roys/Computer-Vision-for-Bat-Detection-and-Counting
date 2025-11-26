@@ -17,7 +17,7 @@ Deployment repo: [*(see main project repo)*](https://github.com/doa-elizabeth-ro
 ---
 
 
-# ** Overview**
+## Overview
 
 The purpose of this repository is to document and store **all experimental code** used to build, optimize, and test custom YOLO-based architectures for detecting bats in thermal images.
 
@@ -31,7 +31,7 @@ This repository contains **all the iterations** preceding the final model select
 
 ---
 
-# **📁 Dataset**
+## Dataset
 
 The dataset folder includes:
 
@@ -41,7 +41,7 @@ The dataset folder includes:
 
 ---
 
-# **🧪 Google Colab Notebook**
+## Google Colab Notebook
 
 `Mod-yolo.ipynb` includes:
 
@@ -54,9 +54,9 @@ The dataset folder includes:
 * Visualizations of predictions
 ---
 
-# **🧩 Model Variants Included**
+## Model Variants Included
 
-## **1. YOLOv8 + Pinwheel Convolution(PConv), CBAM & C3FGhost**
+### **1. YOLOv8 + Pinwheel Convolution(PConv), CBAM & C3FGhost**
 
 Folder: `ultralytics/`
 
@@ -68,7 +68,7 @@ Folder: `ultralytics/`
 
 ---
 
-## **2. YOLOv8 + Adaptive Threshold Focal Loss (ATFL)**
+### **2. YOLOv8 + Adaptive Threshold Focal Loss (ATFL)**
 
 Folder: `ultralytics_atfl/`
 
@@ -80,7 +80,7 @@ ATFL is a modified focal loss where:
 * the loss focuses more heavily on *hard-to-detect*, dim, low-contrast bats
 ---
 
-# ** Results Summary**
+## ** Results Summary**
 
 * Both modified architectures were benchmarked against **baseline YOLOv8**
 * Metrics compared:
@@ -92,7 +92,7 @@ ATFL is a modified focal loss where:
 
 ---
 
-# **📧 Contact**
+## ** Contact**
 
 For questions or collaboration:
 **Doa Roys**
