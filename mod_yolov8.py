@@ -22,8 +22,7 @@ os.environ['CUDA_VISIBLE_DEVICES'] = "0"
 !pip install --upgrade torch
 !pip install --upgrade ultralytics
 
-# Commented out IPython magic to ensure Python compatibility.
-# %cd /content/drive/MyDrive/ComputerVisionBat/ultralytics # Required when using custom model architecture or else it will try to use default public one
+%cd /content/drive/MyDrive/ComputerVisionBat/ultralytics # Required when using custom model architecture or else it will try to use default public one
 
 !pip install -e .
 
