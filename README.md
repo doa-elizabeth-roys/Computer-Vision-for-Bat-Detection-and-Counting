@@ -43,7 +43,7 @@ The dataset folder includes:
 
 ## Google Colab Notebook
 
-`Mod-yolo.ipynb` includes:
+`Mod-yolov8.ipynb` or `mod-yolov8.py` (python script of `Mod-yolov8.ipynb`) includes:
 
 * Pre-processing steps
 * Experiments with baseline YOLOv8
@@ -78,7 +78,6 @@ ATFL is a modified focal loss where:
 
 * the threshold for positive/negative samples is **adaptive**
 * the loss focuses more heavily on *hard-to-detect*, dim, low-contrast bats
----
 
 ## ** Results Summary**
 
@@ -96,4 +95,4 @@ ATFL is a modified focal loss where:
 
 For questions or collaboration:
 **Doa Roys**
-Email: *doa.roys@my.jcu.edu.au*
+Email: *doa.roys@my.jcu.edu.au* or *doaelizabethroys@gmail.com*
